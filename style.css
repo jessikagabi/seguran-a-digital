@@ -85,6 +85,11 @@ body{
     margin: 0 auto;
 }
 
+.parametro-senha-botoes {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
@@ -124,7 +129,28 @@ label {
 }
 
 .fraca {
-    height: 30px;
     width: 25%;
     background-color: #E71B32;
+}
+
+.parametro-senha__textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media{
+    width: 50%;
+    background-color: #008000;
+
+}
+
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.parametro-senha-texto {
+    display: flex;
+    justify-content: space-between;
 }
